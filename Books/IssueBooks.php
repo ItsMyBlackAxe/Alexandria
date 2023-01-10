@@ -47,7 +47,7 @@
         <div class="col-3 d-flex offset-1">
             <nav aria-label="breadcrumb" class="main-breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="http://localhost/LibMSv1.0/dashboard.php">Dashboard</a></li>
+                    <li class="breadcrumb-item"><a href="http://localhost/WampMember/Alexandria/dashboard.php">Dashboard</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Issue books</li>
                 </ol>
             </nav>
@@ -92,8 +92,8 @@
             <hr>
         </div>
         <?php
-        $con = mysqli_connect("localhost", "root", "BlackAxe12");
-        $db = mysqli_select_db($con, 'alexandria');
+        
+        include 'C:\wamp64\www\WampMember\Alexandria\connect.php';
 
         if (isset($_POST['submit_avail'])) {
             $id = $_POST['BookISBN'];

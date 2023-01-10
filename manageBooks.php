@@ -1,10 +1,11 @@
-<!--Insert php-->
-<?php include 'manageBooks_database.php'; ?>
-<!--Insert php-->
+<!--Book Crud-->
+<?php 
+include 'manageBooks_database.php'; 
+?>
 
-<!--Update php-->
-<!--  -->
-<!--Update php-->
+<?php
+include 'C:\wamp64\www\WampMember\Alexandria\connect.php';
+?>
 
 
 <!doctype html>
@@ -201,7 +202,6 @@
 
 
               <?php
-              $con = new mysqli("localhost", "root", "BlackAxe12", "alexandria");
 
               if ($con->connect_error) {
                 die("Connection error " . $con->connect_error);

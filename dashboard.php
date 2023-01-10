@@ -20,7 +20,9 @@
 
 <body class="h-100" onload="retrieveData()">
     <?php
-        $con = new mysqli("localhost", "root", "BlackAxe12", "alexandria");
+        
+        include 'C:\wamp64\www\WampMember\Alexandria\connect.php';
+        
 
         $memberQ = "select * from member";
         $bookQ = "select * from book";
@@ -111,11 +113,6 @@
                                 <span>View Members</span>
                             </a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link " href=#>
-                                <span>Manage Users</span>
-                            </a>
-                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link " href="userProfile.php">
                                 <span>User Profile</span>

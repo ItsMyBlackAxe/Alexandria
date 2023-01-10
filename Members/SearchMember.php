@@ -90,8 +90,8 @@
             <hr>
         </div>
         <?php
-        $con = mysqli_connect("localhost", "root", "BlackAxe12");
-        $db = mysqli_select_db($con, 'alexandria');
+        
+        include 'C:\wamp64\www\WampMember\Alexandria\connect.php';
 
         if (isset($_POST['submit_search'])) {
             $id = $_POST['memID'];

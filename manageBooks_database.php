@@ -1,5 +1,7 @@
 <?php  
-  $con=new mysqli("localhost","root","BlackAxe12","alexandria");
+  
+  include 'C:\wamp64\www\WampMember\Alexandria\connect.php';
+  
 
   if($con->connect_error)
   {
@@ -115,31 +117,6 @@
 ?>
 
 
-    <!-- <?php 
-      // $con=new mysqli("localhost","root","","alexandria");
-
-      // if($con->connect_error)
-      // {
-      //   die("Connection error " .$con->connect_error);
-      // }
-      // else
-      // {
-      //   if(!empty($_POST['txt_u_search']))
-      //   {
-      //     $ISBNUS = $_POST['txt_u_search'];
-      //     $sql = "Select * from book where ISBN ='$ISBNUS' ";
-      //             $result = $con->query($sql);
-                  
-      //               $row = $result->fetch_assoc();
-      //               $TitleUS=$row['TITLE'];
-      //               $AuthorUS=$row['AUTHOR'];
-      //               $CategoryUS=$row['CATEGORY'];
-      //               $ArrivalDateUS=$row['ARRIVALDATE'];
-
-                   
-      //   }
-      
-      // }  
-      ?> -->
+    
 
       

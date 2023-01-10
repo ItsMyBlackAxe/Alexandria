@@ -1,5 +1,6 @@
 <?php 
-include 'connect.php';
+
+include 'C:\wamp64\www\WampMember\Alexandria\connect.php';
 
 if (isset($_POST['submit_issue'])) {
     $memID = $_POST['MemberID'];

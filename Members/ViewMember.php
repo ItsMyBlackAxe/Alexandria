@@ -1,5 +1,5 @@
 <?php
-include 'connect.php';
+include 'C:\wamp64\www\WampMember\Alexandria\connect.php';
 ?>
 <!doctype html>
 <html lang="en">

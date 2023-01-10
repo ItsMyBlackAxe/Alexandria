@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "root", "BlackAxe12", "alexandria");
+include 'C:\wamp64\www\WampMember\Alexandria\connect.php';
 ?>
 
 <?php

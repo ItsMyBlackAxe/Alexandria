@@ -65,8 +65,8 @@
             </thead>
             
             <?php  
-                $con=new mysqli("localhost","root","BlackAxe12","alexandria");
-
+                include 'C:\wamp64\www\WampMember\Alexandria\connect.php';
+                
                 if($con->connect_error)
                 {
                   die("Connection error " .$con->connect_error);
