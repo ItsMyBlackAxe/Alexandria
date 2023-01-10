@@ -4,6 +4,10 @@
   Alexandria
 </h1>
 
+<p>
+Alexandria is a web based application built to allow users to manage daily functionality of a library system.
+</p>
+
 <br>
 
 <div align="center">
