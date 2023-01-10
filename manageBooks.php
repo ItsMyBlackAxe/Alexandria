@@ -201,7 +201,7 @@
 
 
               <?php
-              $con = new mysqli("localhost", "root", "", "alexandria");
+              $con = new mysqli("localhost", "root", "BlackAxe12", "alexandria");
 
               if ($con->connect_error) {
                 die("Connection error " . $con->connect_error);
