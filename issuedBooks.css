@@ -1,0 +1,28 @@
+.mycolor
+{
+    background-color: rgb(22, 160, 133);
+    color: black;
+}
+
+.mycolor-btn
+{
+    background-color: rgb(26, 188, 156);
+    color: white;
+}
+
+.mycolor-btn:hover
+{
+    background-color: rgb(17, 143, 118);
+    color: white;
+}
+
+table th
+{
+    min-width: 60px;
+}
+
+.mypicker
+{
+    padding-left: 79%;
+    padding-right: 10%;
+}

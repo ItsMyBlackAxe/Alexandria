@@ -1,0 +1,38 @@
+body
+{
+    background-image: url("ImageUs.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  
+}
+
+.myform
+{
+    padding: 3%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    grid-row-gap: 50px;
+   
+}
+
+.mycolor
+{
+    background-color: rgb(22, 160, 133);
+}
+
+.mycolor-btn
+{
+    background-color: rgb(26, 188, 156);
+    color: white;
+}
+
+.mycolor-btn:hover
+{
+    background-color: rgb(17, 143, 118);
+    color: white;
+}
+
